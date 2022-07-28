@@ -4,6 +4,7 @@ const fromCurrency = document.querySelector('.from select')
 const toCurrency = document.querySelector('.to select')
 const exchangeResult = document.querySelector('.exchange_rate')
 const reverseBtn = document.querySelector('.icon');
+const API_TOKEN = "82a2e4e4bfa6f59d54a177cd";
 
 for (let i = 0; i < dropList.length; i++) {
     for (currency_code in country_code) {
