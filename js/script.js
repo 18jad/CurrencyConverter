@@ -26,7 +26,7 @@ function loadFlag(element) {
     for (code in country_code) {
         if (code == element.value) {
             let imgTag = element.parentElement.querySelector('img');
-            imgTag.src = `https://www.countryflags.io/${country_code[code]}/flat/64.png`
+            imgTag.src = `https://countryflagsapi.com/png/${country_code[code]}`
         }
     }
 }
