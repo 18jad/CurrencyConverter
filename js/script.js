@@ -17,7 +17,7 @@ for (let i = 0; i < dropList.length; i++) {
         dropList[i].insertAdjacentHTML("beforeend", optionTag)
     }
 
-    dropList[i].addEventListener('change', e => {
+    dropList[i].addEventListener('change', e => { 
         loadFlag(e.target);
     })
 };
